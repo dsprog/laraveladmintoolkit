@@ -1,11 +1,16 @@
 {
     "name": "dsprog/laraveladmintoolkit",
     "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind based on AdminToolKit template",
+    "keywords": ["laravel", "auth", "admintoolkit"],
     "type": "library",
     "autoload": {
         "psr-4": {
             "Dsprog\\Laraveladmintoolkit\\": "src/"
         }
+    },
+    "support": {
+        "issues": "https://github.com/dsprog/laraveladmintoolkit/issues",
+        "source": "https://github.com/dsprog/laraveladmintoolkit"
     },
     "authors": [
         {
@@ -13,7 +18,10 @@
             "email": "dsprog@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.31"
+    },
     "extra": {
         "laravel": {
             "providers": [
