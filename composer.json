@@ -1,0 +1,24 @@
+{
+    "name": "dsprog/laraveladmintoolkit",
+    "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind based on AdminToolKit template",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Dsprog\\Laraveladmintoolkit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Santos",
+            "email": "dsprog@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dsprog\\Laraveladmintoolkit\\AdmintoolkitServiceProvider"
+            ]
+        }
+    }
+}
