@@ -1,0 +1,7 @@
+/node_modules
+.env
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
